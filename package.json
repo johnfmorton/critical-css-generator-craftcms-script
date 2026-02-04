@@ -1,5 +1,5 @@
 {
-  "name": "critical-css-craft",
+  "name": "@johnfmorton/critical-css-craft",
   "version": "0.1.0",
   "description": "Generate critical CSS for Craft CMS + Vite projects using Beasties",
   "type": "module",

@@ -13,7 +13,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - CLI tool (`npx critical-css-craft`) for generating critical CSS files
 - Config file support (`critical-css.config.mjs`) for per-project page and path configuration
-- Programmatic API via `import { generateCriticalCss } from 'critical-css-craft'`
+- Programmatic API via `import { generateCriticalCss } from '@johnfmorton/critical-css-craft'`
 - Default configuration targeting Craft CMS + Vite project conventions
 - Opportunistic dotenv loading (works if `dotenv` is installed in the consuming project)
 - Actionable error messages for missing config, missing pages, and missing `CRITICAL_URL`

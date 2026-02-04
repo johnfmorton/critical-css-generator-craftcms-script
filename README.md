@@ -7,7 +7,7 @@ A drop-in replacement for [rollup-plugin-critical](https://github.com/nystudio10
 ## Install
 
 ```bash
-npm install --save-dev critical-css-craft
+npm install --save-dev @johnfmorton/critical-css-craft
 ```
 
 ## Setup
@@ -102,7 +102,7 @@ export default {
 ## Programmatic Usage
 
 ```javascript
-import { generateCriticalCss } from 'critical-css-craft'
+import { generateCriticalCss } from '@johnfmorton/critical-css-craft'
 
 const { results, successful, failed } = await generateCriticalCss({
   projectRoot: process.cwd(),
