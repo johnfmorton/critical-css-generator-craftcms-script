@@ -1,0 +1,23 @@
+{
+  "name": "critical-css-craft",
+  "version": "0.1.0",
+  "description": "Generate critical CSS for Craft CMS + Vite projects using Beasties",
+  "type": "module",
+  "bin": {
+    "critical-css-craft": "./bin/critical-css-craft.mjs"
+  },
+  "exports": {
+    ".": "./src/generate.mjs"
+  },
+  "files": [
+    "bin/",
+    "src/"
+  ],
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "dependencies": {
+    "beasties": "^0.2.0"
+  },
+  "license": "MIT"
+}
