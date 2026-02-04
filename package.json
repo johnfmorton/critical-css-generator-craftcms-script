@@ -1,6 +1,6 @@
 {
   "name": "@johnfmorton/critical-css-craftcms",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Generate critical CSS for Craft CMS + Vite projects using Beasties",
   "type": "module",
   "bin": {
@@ -18,6 +18,10 @@
   },
   "dependencies": {
     "beasties": "^0.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/johnfmorton/critical-css-generator-craftcms-script.git"
   },
   "license": "MIT"
 }
