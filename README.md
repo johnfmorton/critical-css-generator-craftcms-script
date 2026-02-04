@@ -1,8 +1,8 @@
 # critical-css-craft
 
-Generate critical CSS for Craft CMS + Vite projects using [Beasties](https://github.com/danielroe/beasties).
+Generate critical CSS for Craft CMS projects that use the [Craft Vite plugin](https://nystudio107.com/docs/vite/) by [nystudio107](https://github.com/nystudio107). Uses [Beasties](https://github.com/danielroe/beasties) for pure Node.js CSS extraction -- no Puppeteer or headless Chrome required.
 
-A drop-in replacement for [rollup-plugin-critical](https://github.com/nystudio107/rollup-plugin-critical) that uses pure Node.js instead of Puppeteer/headless Chrome.
+A drop-in replacement for [rollup-plugin-critical](https://github.com/nystudio107/rollup-plugin-critical). Your existing [`config/vite.php`](https://nystudio107.com/docs/vite/#the-config-php-file) stays the same -- the tool outputs critical CSS files in the exact format the Craft Vite plugin already expects (`criticalPath` and `criticalSuffix`). You only need to swap how the files are generated, not how they are consumed.
 
 ## Install
 
