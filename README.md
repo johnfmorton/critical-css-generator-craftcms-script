@@ -1,4 +1,4 @@
-# critical-css-craft
+# critical-css-craftcms
 
 Generate critical CSS for Craft CMS projects that use the [Craft Vite plugin](https://nystudio107.com/docs/vite/) by [nystudio107](https://github.com/nystudio107). Uses [Beasties](https://github.com/danielroe/beasties) for pure Node.js CSS extraction -- no Puppeteer or headless Chrome required.
 
@@ -7,7 +7,7 @@ A drop-in replacement for [rollup-plugin-critical](https://github.com/nystudio10
 ## Install
 
 ```bash
-npm install --save-dev @johnfmorton/critical-css-craft
+npm install --save-dev @johnfmorton/critical-css-craftcms
 ```
 
 ## Setup
@@ -41,13 +41,13 @@ CRITICAL_URL=https://your-site.ddev.site
 ### 3. Run
 
 ```bash
-npx critical-css-craft
+npx critical-css-craftcms
 ```
 
 Or pass the URL inline:
 
 ```bash
-CRITICAL_URL=https://your-site.ddev.site npx critical-css-craft
+CRITICAL_URL=https://your-site.ddev.site npx critical-css-craftcms
 ```
 
 ### npm scripts
@@ -57,8 +57,8 @@ Add these to your `package.json`:
 ```json
 {
   "scripts": {
-    "generate-critical": "critical-css-craft",
-    "build:critical": "npm run build && critical-css-craft"
+    "generate-critical": "critical-css-craftcms",
+    "build:critical": "npm run build && critical-css-craftcms"
   }
 }
 ```
@@ -102,7 +102,7 @@ export default {
 ## Programmatic Usage
 
 ```javascript
-import { generateCriticalCss } from '@johnfmorton/critical-css-craft'
+import { generateCriticalCss } from '@johnfmorton/critical-css-craftcms'
 
 const { results, successful, failed } = await generateCriticalCss({
   projectRoot: process.cwd(),
@@ -175,7 +175,7 @@ Run your Vite build before generating critical CSS. The tool reads the compiled 
 Set it in your `.env` or pass it inline:
 
 ```bash
-CRITICAL_URL=https://your-site.ddev.site npx critical-css-craft
+CRITICAL_URL=https://your-site.ddev.site npx critical-css-craftcms
 ```
 
 ### "No critical CSS extracted" warning

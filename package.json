@@ -1,10 +1,10 @@
 {
-  "name": "@johnfmorton/critical-css-craft",
+  "name": "@johnfmorton/critical-css-craftcms",
   "version": "0.1.0",
   "description": "Generate critical CSS for Craft CMS + Vite projects using Beasties",
   "type": "module",
   "bin": {
-    "critical-css-craft": "./bin/critical-css-craft.mjs"
+    "critical-css-craftcms": "bin/critical-css-craftcms.mjs"
   },
   "exports": {
     ".": "./src/generate.mjs"

@@ -85,7 +85,7 @@ if (!baseUrl) {
   console.error('  CRITICAL_URL=https://your-site.ddev.site')
   console.error('')
   console.error('Or pass it inline:')
-  console.error('  CRITICAL_URL=https://your-site.ddev.site npx critical-css-craft')
+  console.error('  CRITICAL_URL=https://your-site.ddev.site npx critical-css-craftcms')
   process.exit(1)
 }
 

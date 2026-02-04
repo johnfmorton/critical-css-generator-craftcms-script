@@ -1,5 +1,5 @@
 /**
- * Default configuration values for critical-css-craft.
+ * Default configuration values for critical-css-craftcms.
  *
  * These defaults target a standard Craft CMS + Vite project structure.
  * Override any value in your critical-css.config.mjs file.
